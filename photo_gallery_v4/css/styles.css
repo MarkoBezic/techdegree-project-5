@@ -1,0 +1,41 @@
+
+
+
+
+.grid {
+    max-width:  800px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 40px;
+    margin: auto;
+}
+
+img {
+    display: flex;
+    height: 170px;
+    width: 170px;
+}
+
+input {
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 340px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: lightgray;
+    text-indent: 10px;
+    };
+
+
+
+
+
+   
+
+
+
+
