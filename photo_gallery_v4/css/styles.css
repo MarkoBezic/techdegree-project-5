@@ -1,6 +1,22 @@
 
 
 
+input {
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 340px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: lightgray;
+    text-indent: 10px;
+    }
+
+input::placeholder {
+    color: lightgray;
+}
 
 .grid {
     max-width:  800px;
@@ -16,21 +32,6 @@ img {
     height: 170px;
     width: 170px;
 }
-
-input {
-    display: flex;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    height: 40px;
-    width: 340px;
-    border-radius: 7px;
-    border-style: solid;
-    border-color: lightgray;
-    text-indent: 10px;
-    };
-
-
 
 
 
